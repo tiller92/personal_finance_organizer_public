@@ -14,10 +14,12 @@ def data_insert_monthly_spend(data,month_year):
     'gas' : 0,
     'car' : 0,
     'rent' : 0,
+    'bills':0,
     'trasportation' : 0, 
     'misc': 0,
     'poker' : 0,
     'Amazon' : 0,
+    'subscriptions':0,
     'Total Out': 0,
     }
 

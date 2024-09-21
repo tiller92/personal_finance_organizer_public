@@ -6,16 +6,18 @@
 # return an dict with catogorized arrays
 expenses_categorys = {
 'grocery' : ["Kroger","Gaint Eagle", "Costco"],
-'restaurants' : ["Osuwmc Bistroh Uhe"],
-'venmo': ["venmo"],
-'coffee': ["Grind","Dunkin"],
-'gas' : [],
+'restaurants' : ["Osuwmc Bistroh Uhe","Cpp*grandad's Pizza Ii","Chipotle","The Dk Diner Caterers T","Rc Vending","Osuwmc Bistroh Uh"],
+'venmo': ["venmo", "PURCHASE VENMO *CAROLYN CARNEY"],
+'coffee': ["Grind","Dunkin","Dunkin #362968","Starbucks"],
+'gas' : ["Get Go #3539","BP"],
 'car' : [],
-'rent' : [],
+'rent' : ["PURCHASE APF*METROPOLITAN HOLDI"],
 'trasportation' : [],
+'bills':["AT&T","Nationwide Energy Partners"],
 'misc': [],
 'poker' : [],
-'Amazon' : [], 'subscriptions' : [],
+'Amazon' : ["Amazon"], 
+'subscriptions' : ["PURCHASE GRANDVIEW PRO FITNESS","Brave.com","Amazon Prime","Netflix","Whoop Great Brita", "Gtowizard.com"],
 }
 
 categorized_trans = {
@@ -27,6 +29,7 @@ categorized_trans = {
 'car' : [],
 'rent' : [],
 'trasportation' : [],
+'bills':[],
 'misc': [],
 'poker' : [],
 'Amazon' : [],
