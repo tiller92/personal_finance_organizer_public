@@ -18,6 +18,7 @@ def data_insert_monthly_spend(data,month_year):
     'misc': 0,
     'poker' : 0,
     'Amazon' : 0,
+    'Total Out': 0,
     }
 
     new_month = workbook.create_sheet(title=f"{month_year}")  
@@ -29,6 +30,7 @@ def data_insert_monthly_spend(data,month_year):
             stripped_again = stripped.replace(',', '')
             floated = float(stripped_again)
             totals[category] = totals[category] + floated
+            totals['Total Out'] = totals['Total Out'] + floated
             new_month.cell(row=2+i,column=col_index,value=floated)
 
     # create table for totals

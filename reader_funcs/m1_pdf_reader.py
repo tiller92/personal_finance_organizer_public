@@ -39,8 +39,9 @@ def m1_transactions(file_name):
     new_string = ''
     transactions_price_location = []
     for i in range(0,len(processed_text)):
-        if processed_text[i].startswith('$'):
+        if processed_text[i].startswith('$') and not processed_text[i+2] == 'Total':
             transactions_price_location.append([processed_text[i],processed_text[i+2]])
+    print(len(transactions_price_location), 'm1 length')
     return transactions_price_location
 
 
