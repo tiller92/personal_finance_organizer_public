@@ -11,7 +11,7 @@ def huntington_reader(file_name):
         data = []
         price_col= [] 
         for row in reader:
-            if row[3].startswith('-') and not row[1] == 'M1 Card*DESERVE PAYMENT':
+            if row[4].startswith('-') and not row[2] == 'M1 Card*DESERVE PAYMENT':
                 stripped = row[3].replace('-','')
                 data.append([stripped,row[1]])
         print(len(data))
